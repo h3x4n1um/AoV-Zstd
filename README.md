@@ -2,7 +2,7 @@
 # How to use (Windows)
 - Install Visual C++ Buildtools (https://visualstudio.microsoft.com/vs/older-downloads/)
 - Install Windows 10 SDK(Depends on your Windows version)
-- Install Python
+- Install Python https://www.python.org/downloads/release/python-3105/
 - pip install -r requirements.txt
 - python AoV_Zstd.py
 
@@ -24,7 +24,7 @@ Thank you so much!
 # Cách sử dụng (Windows)
 - Cài đặt Visual C++ Buildtools (https://visualstudio.microsoft.com/vs/older-downloads/)
 - Cài đặt Windows 10 SDK(Tùy thuộc vào máy của bạn)
-- Cài Python
+- Cài Python https://www.python.org/downloads/release/python-3105/
 - pip install -r requirements.txt
 - python AoV_Zstd.py
 
