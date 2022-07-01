@@ -9,6 +9,7 @@
 > To make an .exe, run build_AoV_Zstd.bat
 
 # How to use (Termux - Android)
+- Install Termux (github.com/termux/termux-app/releases/tag/v0.118.0)
 - apt update && apt upgrade
 - pkg install python
 - Delete `pyinstaller` and `pyinstaller-hooks-contrib` from requirements.txt
@@ -31,6 +32,7 @@ Thank you so much!
 > Để tạo thành 1 file .exe hãy chạy build_AoV_Zstd.bat
 
 # Cách sử dụng (Termux - Android)
+- Termux (github.com/termux/termux-app/releases/tag/v0.118.0)
 - apt update && apt upgrade
 - pkg install python
 - Xoá `pyinstaller` and `pyinstaller-hooks-contrib` từ file requirements.txt
