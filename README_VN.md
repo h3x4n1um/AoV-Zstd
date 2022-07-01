@@ -1,32 +1,33 @@
-## Vietnamese by tsuntsun (An)
+# AoV-Zstd
 
-# Cách sử dụng (Windows)
+## Cách sử dụng
 
-- Cài đặt Visual C++ Buildtools (https://visualstudio.microsoft.com/vs/older-downloads/)
+### Windows
 
-- Cài đặt Windows 10 SDK(Tùy thuộc vào máy của bạn)
+Chỉ cần tải xuống tệp thực thi trong [phần `Release`](https://github.com/h3x4n1um/AoV-Zstd/releases)
 
-- Cài Python https://www.python.org/downloads/release/python-3105/
+### Linux và macOS
 
-- pip install -r requirements.txt
+* Cài đặt Python (khuyến nghị 3.7+)
+* Tạo môi trường ảo (tùy chọn)
+* Xóa `pyinstaller` và `pyinstaller-hooks-Contrib` khỏi tệp `requirements.txt` (tuỳ chọn)
+* Cài đặt các thư viện phụ thuộc với `pip install -r requirements.txt`
+* `python AoV_Zstd.py`
 
-- python AoV_Zstd.py
+### Android (Termux)
 
-> Để tạo thành 1 file .exe hãy chạy build_AoV_Zstd.bat
+* Cài đặt [Termux từ F-Droid](https://f-droid.org/en/packages/com.termux/)
+* Làm theo hướng dẫn **Linux & macOS**
 
-# Cách sử dụng (Termux - Android)
+## Tạo tệp thực thi (phải có PyInstaller)
 
-- Termux (github.com/termux/termux-app/releases/tag/v0.118.0)
+* Tạo môi trường ảo (tùy chọn nhưng nên làm)
+* Thay đổi sang môi trường ảo
+* Cài đặt các thư viện phụ thuộc với `pip install -r requirements.txt`
+* Chạy lệnh sau
 
-- apt update && apt upgrade
+```
+python -O -m PyInstaller -F -n <executable-name> --key <key> -i <icon-file-path> AoV_Zstd.py
+```
 
-- pkg install python
-
-- Xoá `pyinstaller` and `pyinstaller-hooks-contrib` từ file requirements.txt
-
-- pip install -r requirements.txt
-
-- python AoV_Zstd.py
-
-> Làm tương tự với các distro khác của Linux như Ubuntu...
-
+* Nếu bạn đang sử dụng Windows, bạn có thể chạy tệp batch `build_AoV_Zstd.bat` có sẵn để xây dựng tệp thực thi (bạn vẫn cần thiết lập `venv`)
