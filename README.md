@@ -16,3 +16,6 @@
 - python AoV_Zstd.py
 
 > Do the same for linux such as Ubuntu, etc...
+
+If you find this is useful, please give me a star
+Thank you so much! 
